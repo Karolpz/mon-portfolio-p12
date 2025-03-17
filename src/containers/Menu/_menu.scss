@@ -1,0 +1,16 @@
+@use '../../assets/variables' as v;
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 v.$margin20;
+
+    & .logo {
+        width: 150px;
+    }
+
+    & .navBar {
+        display: flex;
+            gap: 20px;
+    }
+}

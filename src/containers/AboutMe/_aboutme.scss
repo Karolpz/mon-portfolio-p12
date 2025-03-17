@@ -1,0 +1,38 @@
+@use '../../assets/variables' as v;
+
+.aboutMe {
+    background-color: v.$green;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    margin: v.$margin20;
+    padding: 70px;
+    border-radius: 10px;
+    box-shadow: v.$shadow;
+
+    & .aboutMe__pic {
+        border-radius: 50px;
+    }
+
+    & .aboutMe__text {
+        flex-grow: 1;
+        text-align: right;
+        line-height: 1.6;
+
+        & h1 {
+            margin-bottom: v.$margin20;
+        }
+        & h2 {
+            font-size: v.$size24;
+            margin-bottom: v.$margin20;
+        }
+
+        & p {
+            margin-bottom: v.$margin20;
+        }
+
+        & span {
+            font-weight: bold;
+        }
+    }
+}

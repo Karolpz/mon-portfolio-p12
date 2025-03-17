@@ -1,0 +1,21 @@
+@use '../../assets/variables' as v;
+
+.navItem {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+
+    & .navItem__icon img {
+        width: 30px;
+    }
+
+    & .navItem__text {
+        color: v.$beige;
+
+        &:hover {
+                opacity: 0.5;
+                cursor: pointer;
+                text-decoration: underline;
+            }
+    }
+}
