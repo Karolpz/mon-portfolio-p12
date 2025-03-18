@@ -1,0 +1,79 @@
+@use '../../assets/variables' as v;
+
+.skills {
+    margin: v.$margin50;
+
+    &__title {
+        color: v.$beige;
+    }
+
+    &__img {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 70px;
+        margin-top: v.$margin20;
+        width: 100%;
+        position: relative;
+        height: 600px;
+
+        &--logo {
+            position: absolute;
+            animation: floating 3s ease-in-out infinite;
+
+            &.html {
+                top: 10%;
+                left: 22%;
+                animation-delay: 0.5s;
+            }
+
+            &.css {
+                top: 30%;
+                left: 43%;
+                animation-delay: 1s;
+            }
+
+            &.js {
+                top: 60%;
+                left: 60%;
+                animation-delay: 0.8s;
+            }
+
+            &.sass {
+                top: 70%;
+                left: 25%;
+                animation-delay: 1.2s;
+            }
+
+            &.react {
+                top: 15%;
+                left: 70%;
+                animation-delay: 0.4s;
+            }
+
+            &.redux {
+                top: 40%;
+                left: 5%;
+                animation-delay: 0.1s;
+            }
+
+            &.github {
+                top: 50%;
+                left: 86%;
+            }
+        }
+    }
+}
+@keyframes floating {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}

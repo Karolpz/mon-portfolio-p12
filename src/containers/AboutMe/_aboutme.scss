@@ -4,20 +4,21 @@
     background-color: v.$green;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     gap: 70px;
-    margin: v.$margin20;
-    padding: 70px;
-    border-radius: 10px;
+    margin: v.$margin20 v.$margin50;
+    padding: 50px 100px;
+    border-radius: v.$radius50;
     box-shadow: v.$shadow;
 
     & .aboutMe__pic {
-        border-radius: 50px;
+        border-radius: v.$radius50;
     }
 
     & .aboutMe__text {
-        flex-grow: 1;
-        text-align: right;
+        text-align:center;
         line-height: 1.6;
+        width: 60%;
 
         & h1 {
             margin-bottom: v.$margin20;
