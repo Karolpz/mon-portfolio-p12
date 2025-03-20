@@ -1,0 +1,17 @@
+@use '../../assets/variables' as v;
+
+.projects {
+    margin: v.$margin50;
+
+    &__title {
+        color: v.$beige;
+    }
+
+    &__container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 100px;
+        justify-content: center;
+        margin-top: v.$margin50;
+    }
+}

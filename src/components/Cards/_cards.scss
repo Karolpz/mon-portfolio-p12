@@ -1,0 +1,40 @@
+@use '../../assets/variables' as v;
+
+.card {
+    background: v.$green;
+    width: 25%;
+    height: 420px;
+    border-radius: 10px;
+    box-shadow: v.$shadow;
+
+    &__picture {
+        padding: 10px;
+
+        &--img {
+            height: 300px;
+            width: 100%;
+            object-fit: cover;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+    }
+
+    &__content {
+        padding: 10px;
+
+            & ul {
+                display: flex;
+                gap: 15px;
+                margin-top: 10px;
+
+                & li {
+                    color: v.$beige;
+                    background: v.$text-color;
+                    padding: 5px 10px;
+                    border-radius: 500px;
+                    font-size: 18px
+                }
+
+            }
+        }
+    }

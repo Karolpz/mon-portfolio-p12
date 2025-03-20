@@ -1,0 +1,69 @@
+[
+    {
+        "id": 1,
+        "name": "Booki",
+        "description": "Site de recherche d'hébergements",
+        "picture": "/website/booki-site.jpg",
+        "github": "https://github.com/Karolpz/P3-Booki-OpenClassrooms-Project",
+        "code" : [
+            "HTML",
+            "CSS"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "OhMyFood",
+        "description": "Site de réservations de menus de restaurants",
+        "picture": "/website/ohmyfood-site.png",
+        "github": "https://github.com/Karolpz/P4-OhMyFood",
+        "code": [
+            "HTML",
+            "SASS"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Sophie Bluel",
+        "description": "Portfolio de la photographe Sophie Bluel",
+        "picture": "/website/sophiebluel-site.png",
+        "github": "https://github.com/Karolpz/Portfolio-architecte-sophie-bluel",
+        "code": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Kasa",
+        "description": "Site de location immobilière entre particuliers",
+        "picture": "/website/kasa-site.png",
+        "github": "https://github.com/Karolpz/P7_Kasa",
+        "code": [
+            "React",
+            "SASS"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Nina Carducci",
+        "description": "Amélioration de la performance, accessibilité et référencement du site",
+        "picture": "/website/ninacarducci-site.webp",
+        "github": "https://github.com/Karolpz/p8-ninacarducci",
+        "code": [
+            "SEO"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "ArgentBank",
+        "description": "Site de banques en ligne et comptes utilisateurs",
+        "picture": "/website/argentbank-site.png",
+        "github": "https://github.com/Karolpz/ArgentBank",
+        "code": [
+            "React",
+            "SASS",
+            "Redux"
+        ]
+    }
+]
