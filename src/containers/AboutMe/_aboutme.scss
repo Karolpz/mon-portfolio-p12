@@ -6,19 +6,18 @@
     align-items: center;
     justify-content: space-between;
     gap: 70px;
-    margin: v.$margin20 v.$margin50;
-    padding: 50px 100px;
+    margin: v.$margin50 200px;
+    padding: 50px;
     border-radius: v.$radius50;
     box-shadow: v.$shadow;
 
-    & .aboutMe__pic {
+    &__pic {
         border-radius: v.$radius50;
     }
 
-    & .aboutMe__text {
-        text-align:center;
+    &__text {
+        text-align:left;
         line-height: 1.6;
-        width: 60%;
 
         & h1 {
             margin-bottom: v.$margin20;

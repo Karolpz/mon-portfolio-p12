@@ -11,6 +11,7 @@ const Projects = () => {
                 {projectsData.map(project => (
                     <Cards
                         key={project.id}
+                        link={project.github}
                         siteImg={project.picture}
                         name={project.name}
                         skill={
