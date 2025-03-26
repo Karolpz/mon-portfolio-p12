@@ -22,6 +22,7 @@ const Projects = () => {
                                 ))}
                             </ul>
                         }
+                        description={project.description}
                     />
                 ))}
 

@@ -6,35 +6,64 @@
     height: 420px;
     border-radius: 10px;
     box-shadow: v.$shadow;
+    
+
+    &:hover {
+        transition: transform 0.3s;
+        transform: scale(1.05);
+    }
+
+    &:hover .card__picture--image {
+        transition: opacity 0.3s;
+        opacity: 0.5;
+    }
+
+    &:hover p {
+        visibility: visible;
+    }
 
     &__picture {
         padding: 10px;
-
-        &--img {
+        position: relative;
+        
+        &--image {
             height: 300px;
             width: 100%;
             object-fit: cover;
             border-top-left-radius: 10px;
             border-top-right-radius: 10px;
+            
+        }
+
+        & p {
+            visibility: hidden;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            opacity: 1;
+            font-size: v.$size24;
+            font-weight: bold;
         }
     }
 
     &__content {
         padding: 10px;
 
-            & ul {
-                display: flex;
-                gap: 15px;
-                margin-top: 10px;
+        & ul {
+            display: flex;
+            gap: 15px;
+            margin-top: 10px;
 
-                & li {
-                    color: v.$beige;
-                    background: v.$text-color;
-                    padding: 5px 10px;
-                    border-radius: 500px;
-                    font-size: 18px
-                }
-
+            & li {
+                color: v.$beige;
+                background: v.$text-color;
+                padding: 5px 10px;
+                border-radius: 500px;
+                font-size: 18px
             }
+
         }
     }
+}

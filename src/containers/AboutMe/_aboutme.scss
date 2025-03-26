@@ -1,27 +1,23 @@
 @use '../../assets/variables' as v;
+@use '../../assets/mixins' as m;
 
 .aboutMe {
-    background-color: v.$green;
-    display: flex;
-    align-items: center;
+    @include m.sectionStyle(v.$green, 50px);
     justify-content: space-between;
     gap: 70px;
-    margin: v.$margin50 200px;
-    padding: 50px;
-    border-radius: v.$radius50;
-    box-shadow: v.$shadow;
 
     &__pic {
         border-radius: v.$radius50;
     }
 
     &__text {
-        text-align:left;
+        text-align: left;
         line-height: 1.6;
 
         & h1 {
             margin-bottom: v.$margin20;
         }
+
         & h2 {
             font-size: v.$size24;
             margin-bottom: v.$margin20;

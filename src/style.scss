@@ -1,6 +1,7 @@
 //GLOBAL//
 @use './assets/global';
 @use './assets/variables';
+@use './assets/mixins';
 
 //PAGE//
 @use './pages/Home/home';
@@ -16,4 +17,4 @@
 @use './components/Buttons/buttons';
 @use './components/Cards/cards';
 @use './components/NavItem/navitem';
-@use './components/SkillsLogo/skillslogo'
+@use './components/Field/field'

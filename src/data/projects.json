@@ -57,7 +57,7 @@
     {
         "id": 6,
         "name": "ArgentBank",
-        "description": "Site de banques en ligne et comptes utilisateurs",
+        "description": "Site de banque en ligne et gestion de comptes utilisateurs",
         "picture": "/website/argentbank-site.png",
         "github": "https://github.com/Karolpz/ArgentBank",
         "code": [

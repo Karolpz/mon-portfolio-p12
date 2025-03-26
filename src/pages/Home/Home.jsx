@@ -3,6 +3,7 @@ import Menu from '../../containers/Menu/Menu'
 import AboutMe from '../../containers/AboutMe/AboutMe'
 import Skills from '../../containers/Skills/Skills'
 import Projects from '../../containers/Projects/Projects'
+import Form from '../../containers/Form/Form'
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
         <AboutMe />
         <Skills />
         <Projects />
+        <Form />
     </main>
   )
 }
