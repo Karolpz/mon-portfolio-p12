@@ -2,7 +2,7 @@
 @use '../../assets/mixins' as m;
 
 .form__container {
-    @include m.sectionStyle(v.$beige, 50px);
+    @include m.sectionStyle(v.$beige);
     flex-direction: column;
 
     & h2 {
